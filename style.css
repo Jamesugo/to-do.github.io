@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+#todo-list {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.checked {
+    text-decoration: line-through;
+    color: #999;
+}
+button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+button:hover {
+    background-color: #45a049;
+}
